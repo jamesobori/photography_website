@@ -1,0 +1,7 @@
+.about{
+    background-image: url(cat.png);
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: larger;
+}

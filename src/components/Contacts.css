@@ -1,0 +1,32 @@
+.contacts {
+    /* min-height: 100vh; */
+    padding: 50px;
+    text-align: center;
+}
+.contacts-me {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.me {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.me li {
+    list-style-type: none;
+}
+.me li a {
+    text-decoration: none;
+    color: rgb(15, 65, 158);
+}
+form {
+    background-color: aqua;
+}
+form input, textarea, button {
+    box-sizing: border-box;
+    border-radius: 12px;
+    /* background-color: green; */
+     margin: 1.5rem;
+     padding: 1rem;
+}

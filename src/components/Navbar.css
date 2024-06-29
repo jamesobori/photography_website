@@ -1,0 +1,37 @@
+
+.Navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 50px 50px;
+}
+.Navigation a{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.overall{
+    text-decoration: none;
+  
+}
+.Navigation a span{
+    color: orange;
+}
+.Nav-links{
+    display: flex;
+    gap: 1rem;
+}
+.Nav-links li{
+    padding: 0.5rem;
+    list-style: none;
+}
+.Nav-links a{
+    color:whitesmoke;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.Nav-links a:hover{
+    color: orange;
+    box-shadow: inset;
+}
