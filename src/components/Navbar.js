@@ -1,19 +1,21 @@
 import "./Navbar.css";
+import { NavLink,  Outlet } from "react-router-dom";
 
-const Navbar =() => {
+const Navbar = () => {
     return (
-        <nav className = "Navigation">
-            <div className = "overall">
+        <nav className="Navigation">
+            <div className="overall">
                 <a>Photogragh <span>Website</span></a>
             </div>
-            <ul className = "Nav-links">
-                <li><a href= "#">Home</a></li>
-                <li><a href= "#">About</a></li>
-                <li><a href= "#">Gallery</a></li>
-                <li><a href= "#">Services</a></li>
-                <li><a href= "#">Contacts</a></li>
+            <ul className="Nav-links">
+                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="about">About</NavLink></li>
+                <li><NavLink to="gallery">Gallary</NavLink></li>
+                <li><NavLink to="services">Services</NavLink></li>
+                <li><NavLink to="contacts">Contacts</NavLink></li>
             </ul>
-            </nav>
-                );
+            <Outlet />
+        </nav>
+    );
 }
 export default Navbar; 
