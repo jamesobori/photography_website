@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/photography_website/static/css/main.d1b48715.css",
+    "main.js": "/photography_website/static/js/main.475c1f17.js",
+    "static/js/453.bab847ac.chunk.js": "/photography_website/static/js/453.bab847ac.chunk.js",
+    "static/media/flower.png": "/photography_website/static/media/flower.d22c2393c25131044b63.png",
+    "static/media/web.png": "/photography_website/static/media/web.aa37aeb8ad4f171cc47c.png",
+    "static/media/james.png": "/photography_website/static/media/james.7964c3d7f89c0f46bb04.png",
+    "static/media/cat.png": "/photography_website/static/media/cat.47e9fc77f3c165ca95ba.png",
+    "static/media/cloud.png": "/photography_website/static/media/cloud.c7461201eaa0ba99a2e8.png",
+    "static/media/land.png": "/photography_website/static/media/land.f7c95f78b623c4a4efc0.png",
+    "static/media/grapher.png": "/photography_website/static/media/grapher.2e9819225ed166b9cee4.png",
+    "index.html": "/photography_website/index.html",
+    "main.d1b48715.css.map": "/photography_website/static/css/main.d1b48715.css.map",
+    "main.475c1f17.js.map": "/photography_website/static/js/main.475c1f17.js.map",
+    "453.bab847ac.chunk.js.map": "/photography_website/static/js/453.bab847ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1b48715.css",
+    "static/js/main.475c1f17.js"
+  ]
+}
